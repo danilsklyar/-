@@ -4,6 +4,7 @@ $(function(){
         prevArrow: '<button type="button" class="slick-prev"><img src="./img/prev-arrow.svg" alt=""></button>',
         nextArrow: '<button type="button" class="slick-next"><img src="./img/next-arrow.svg" alt=""></button>',
         vertical: true,
+        verticalSwiping: true,
         responsive: [
           {breakpoint: 361,
             settings: {
@@ -23,6 +24,7 @@ $(function(){
         focusOnSelect: true,
         asNavFor: '.product__content',
         vertical: true,
+        verticalSwiping: true,
         prevArrow: '<button type="button" class="product-prev"><img src="./img/product-prev.svg" alt=""></button>',
         nextArrow: '<button type="button" class="product-next"><img src="./img/product-next.svg" alt=""></button>',
         responsive: [
@@ -30,6 +32,7 @@ $(function(){
             breakpoint: 891,
             settings: {
               vertical: false,
+              verticalSwiping: true,
               slidesToShow: 3,
               arrows: false, 
               dots: true, 
@@ -37,6 +40,7 @@ $(function(){
             breakpoint: 461,
             settings: {
               vertical: false,
+              verticalSwiping: true,
               slidesToShow: 1,
               arrows: false, 
               dots: true, 
